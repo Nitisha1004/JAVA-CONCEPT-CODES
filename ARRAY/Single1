@@ -1,0 +1,45 @@
+import java.util.*;
+class Single1
+{
+	public static void main(String args[])
+	
+	{
+	
+             	 int x1,x2,x3,y1,y2,y3;
+ 
+	         double dis;
+	
+	         Scanner sc=new Scanner(System.in);
+ 
+	         System.out.println("enter x1 point");
+	   
+                 x1=sc.nextInt();
+	    
+                 System.out.println("enter y1 point");
+	   
+                 y1=sc.nextInt();
+ 
+	         System.out.println("enter x2point");
+	   
+                 x2=sc.nextInt();
+ 
+	         System.out.println("enter y2 point");
+	   
+                 y2=sc.nextInt();
+	  	    
+                 x3=sc.nextInt();
+	    
+                 System.out.println("enter y1 point");
+	   
+                 y3=sc.nextInt();
+ 
+	         System.out.println("enter x2point");
+
+		 dis=Math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1) + (x3-x2)*(x3-x2) + (y3-y2)*(y3-y2));
+ 	 	    	 	    
+  	         System.out.println("distance : "+dis);
+
+             sc.close();
+ 
+	}
+ 
